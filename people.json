@@ -6,7 +6,7 @@
             "wanted_trainings": [
                 {
                     "sport": "Volley",
-                    "dates": ["mardi", "mercredi1", "jeudi", "vendredi"]
+                    "dates": ["mardi", "mercredi1"]
                 }
             ]
         },
@@ -27,20 +27,6 @@
                 {
                     "sport": "Volley",
                     "dates": ["mercredi1"]
-                }
-            ]
-        },
-        {
-            "username" : "REYMICKA",
-            "password": "BasketVolley1004", 
-            "wanted_trainings": [
-                {
-                    "sport": "Volley",
-                    "dates": ["mardi", "mercredi1", "jeudi", "vendredi"]
-                },
-                {
-                    "sport": "Basket",
-                    "dates": ["mercredi"]
                 }
             ]
         }
