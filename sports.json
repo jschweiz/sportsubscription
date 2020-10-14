@@ -36,6 +36,17 @@
                     "hour": "12:15–13:45"
                 }
             ]
+        },
+        {
+            "sport": "Basket",
+            "url": "https://sport.unil.ch/?pid=80&aid=23#content",
+            "dates": [
+                {
+                    "name": "mercredi",
+                    "date" : "Mercredi",
+                    "hour": "17:30–19:00"
+                }
+            ]
         }
     ]
 }
