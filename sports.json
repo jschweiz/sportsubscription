@@ -1,0 +1,52 @@
+{
+    "sports": [
+        {
+            "sport": "Volley",
+            "url": "https://sport.unil.ch/?pid=80&aid=58#content",
+            "dates": [
+                {
+                    "name": "mercredi1",
+                    "date" : "Mercredi",
+                    "hour": "19:00–20:30"
+                },
+                {
+                    "name": "mardi",
+                    "date" : "Mardi",
+                    "hour": "19:00–20:30"
+                },
+                {
+                    "name": "jeudi",
+                    "date" : "Jeudi",
+                    "hour": "16:00–17:30"
+                },
+                {
+                    "name": "vendredi",
+                    "date" : "Vendredi",
+                    "hour": "17:30–19:00"
+                }
+            ]
+        },
+        {
+            "sport": "Badminton",
+            "url": "https://sport.unil.ch/?pid=80&aid=61#content",
+            "dates": [
+                {
+                    "name": "lundi",
+                    "date" : "Lundi",
+                    "hour": "12:15–13:45"
+                }
+            ]
+        },
+        {
+            "sport": "Basket",
+            "url": "https://sport.unil.ch/?pid=80&aid=23#content",
+            "dates": [
+                {
+                    "name": "mercredi",
+                    "date" : "Mercredi",
+                    "hour": "17:30–19:00"
+                }
+            ]
+        }
+    ]
+}

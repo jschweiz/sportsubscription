@@ -1,0 +1,48 @@
+{
+    "students": [
+        {
+            "username" : "SCHWEJO1",
+            "password": "bjiskan67560", 
+            "wanted_trainings": [
+                {
+                    "sport": "Volley",
+                    "dates": ["mardi", "mercredi1", "jeudi", "vendredi"]
+                }
+            ]
+        },
+        {
+            "username" : "RYKNEMAT",
+            "password": "X5FatVolley", 
+            "wanted_trainings": [
+                {
+                    "sport": "Volley",
+                    "dates": ["mardi", "mercredi1", "jeudi", "vendredi"]
+                }
+            ]
+        },
+        {
+            "username" : "THIRISAM",
+            "password": "S@mSport2020", 
+            "wanted_trainings": [
+                {
+                    "sport": "Volley",
+                    "dates": ["mercredi1"]
+                }
+            ]
+        },
+        {
+            "username" : "REYMICKA",
+            "password": "BasketVolley1004", 
+            "wanted_trainings": [
+                {
+                    "sport": "Volley",
+                    "dates": ["mardi", "mercredi1", "jeudi", "vendredi"]
+                },
+                {
+                    "sport": "Basket",
+                    "dates": ["mercredi"]
+                }
+            ]
+        }
+    ]
+}
