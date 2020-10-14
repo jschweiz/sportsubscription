@@ -52,7 +52,7 @@ def main(data, context):
         subscribed = False
         while subscribed == False:
 
-            time.sleep(10)
+            time.sleep(100)
 
             # Connect with account
             s = requests.Session()
