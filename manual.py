@@ -114,7 +114,7 @@ def main(data, context):
                     print('--> Subscribed to the sport training %s:%s' % (d, h))
                     subscribed = True
 
-        s.close()
+            s.close()
 
 
 if __name__ == "__main__":

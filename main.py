@@ -39,12 +39,15 @@ def find_hour(nickname, sport):
 
 
 def main(data, context):
-
+    print("STARTING LOADING")
     with open('people.json') as f:
         people = json.load(f)
     
     with open('sports.json') as f:
         sports = json.load(f)
+
+    time.sleep(10)
+    print('STARTING SUBSCRIPTION')
     
     for person in people['students']:
 
@@ -68,6 +71,10 @@ def main(data, context):
                 date = find_hour(date_nickname, sport)
                 if date == None:
                     print('--> Training on %s for %s not found' % (date_nickname, sport_name))
+                    continue
+
+                day_of_the_week = datetime.datetime.now().strftime("%A")
+                if day_of_the_week != config.traduction_days[date['date']]:
                     continue
 
                 # Looking for all available trainings
@@ -108,6 +115,7 @@ def main(data, context):
                 print('--> Subscribed to the sport training %s:%s' % (d, h))
 
         s.close()
+    print('END SUBSCRIPTION')
 
 
 if __name__ == "__main__":

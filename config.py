@@ -5,3 +5,4 @@ FULL_TRAINING = "full_training"
 UNKNOWN_ERROR = "unknown_error"
 base_url = 'https://sport.unil.ch/'
 connection_url = base_url + 'cms_core/auth/login/return/pid=29'
+traduction_days={'Lundi': 'Monday', 'Mardi': 'Tuesday', 'Mercredi': 'Wednesday', 'Jeudi': 'Thursday', 'Vendredi': 'Friday'}
